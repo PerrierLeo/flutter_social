@@ -19,12 +19,6 @@ class _CreateDescriptionPageState extends State<CreateDescriptionPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text(
-          arguments.value,
-          style: const TextStyle(
-            color: Colors.black,
-          ),
-        ),
         elevation: 0,
         backgroundColor: Colors.white,
         leading: IconButton(
